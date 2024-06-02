@@ -102,19 +102,8 @@ faciliter_blog/
 
 Open your browser and navigate to http://127.0.0.1:8000/docs to access the Swagger UI interactive API documentation.
 
-## API Endpoints
+## Internal API Endpoints Documentation
 
-## Authors
-    GET /authors/ - Retrieve a list of all authors
-    GET /authors/{author_id} - Retrieve a specific author by ID
-    POST /authors/ - Create a new author
-    PUT /authors/{author_id} - Update an existing author
-    DELETE /authors/{author_id} - Delete an author
-
-
-## Posts
-    GET /posts/?author_id={author_id} - Retrieve a list of all posts for an author
-    GET /posts/{post_id}/?author_id={author_id} - Retrieve a specific author post by ID
-    POST /posts/?author_id={author_id} - Create a new post by an author
-    PUT /posts/{post_id}/?author_id={author_id} - Update an existing post for an author
-    DELETE /posts/{post_id}/?author_id={author_id} - Delete a post by an author
+    ```
+        ./api_doc.txt file
+    ```
