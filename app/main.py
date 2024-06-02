@@ -3,10 +3,8 @@ from sqlalchemy.orm import Session
 from .db import database
 from .api import author, post
 
-# Create the FastAPI app
 app = FastAPI()
 
-# Include routers
 app.include_router(author.router, prefix="/authors", tags=["authors"])
 app.include_router(post.router, prefix="/posts", tags=["posts"])
 
@@ -19,7 +17,7 @@ def on_startup():
 def on_shutdown():
     database.SessionLocal().close()
 
-# Root endpoint for basic testing
+# Root endpoint for home page
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the Faciliter Blogging Platform!"}
