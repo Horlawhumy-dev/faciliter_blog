@@ -1,4 +1,4 @@
-# Faciliter Blogging Platform
+# Faciliter Blog APIs Assessment
 
 A basic FastAPI backend for a blogging platform that manages posts and authors. It supports basic CRUD (Create, Read, Update, Delete) operations for both entities.
 
