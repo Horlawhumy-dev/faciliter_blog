@@ -64,7 +64,7 @@ faciliter_blog/
         pip install -r requirements.txt
     ```
 
-3. **Create New Postgres Database Table and Update your Env variable**
+3. **Create New Postgres Database Table and Update your .env file**
     ```sql
         CREATE DATABASE dbname;
     ```
